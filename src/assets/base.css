@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --formkit-theme: 'genesis';
+  --fk-font-family: 'Roboto', sans-serif;
+  --fk-font-family-input: 'Roboto', sans-serif;
+  --fk-font-family-label: 'Roboto', sans-serif;
+  --fk-font-family-legend: 'Roboto', sans-serif;
+  --fk-font-family-select: 'Roboto', sans-serif;
+  --fk-font-family-textarea: 'Roboto', sans-serif;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
-  font-weight: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
