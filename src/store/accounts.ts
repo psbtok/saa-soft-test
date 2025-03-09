@@ -44,7 +44,7 @@ export const useAccountStore = defineStore('accounts', {
           password,
           label,
         }
-        console.log('Account updated successfully')
+        return this.accounts[index]
       }
     },
 
